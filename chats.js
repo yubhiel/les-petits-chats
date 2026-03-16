@@ -9,7 +9,7 @@ btn.addEventListener('click', () => {
             console.log('nombre de chats', cats.length, 'chats', cats)
             
             let i = 0;
-            while (i < 10) {
+            while (i < cats.length) {
                 let image = document.createElement('img');
                 image.setAttribute('src', cats[i].url);
                 gallery.appendChild(image);
